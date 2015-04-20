@@ -10,17 +10,87 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js" type="text/javascript"></script>
     <link rel="stylesheet" href="//code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css">
 
-    <link rel="stylesheet" href="lib/build/css/screen.css?v1.1" />
-	<script type="text/javascript" src="js/src/facebook-login.js"></script>
+    <link rel="stylesheet" href="lib/prod/screen.css?v1.1" />
+	<!-- pt type="text/javascript" src="js/src/facebook-login.js"></script> -->
     
 </head>
 
 <body>
 
-	<header></header>
+    <header class="prm box-shadow ease_sd">
+        <img id="header_logo" class="fl_lt" src="assets/svg/logo.svg?v1.1" alt="" />
+        <span id="headerMessage">Welcome Adam</span>
+        <ul class="inline tabs txt_sm clearfix">
+            <li id="tab-order" class="std">
+                <a href="#">
+                    Home
+                </a>
+            </li>
+            <li id="tab-products" class="dropDown">
+                <a href="#">
+                    Products
+                    <span class="icon-arrow-down m_l_left"></span>
+                </a>
+                <ul class="sub">
+                    <li>
+                        <a href="mostRecent">
+                            Most Recent
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mostRecent">
+                            Highest Rank
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mostRecent">
+                            Oldest
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li id="tab-editedBy" class="dropDown">
+                <a href="#">
+                    Edited By
+                    <span class="icon-arrow-down m_l_left"></span>
+                </a>
+                <ul class="sub">
+                    <li>
+                        <a href="mostRecent">
+                            Most Recent
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mostRecent">
+                            Highest Rank
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mostRecent">
+                            Oldest
+                        </a>
+                    </li>
+                </ul>    
+            </li>
+            <li id="tab-types">
+                <a href="#">
+                    Types
+                    <span class="icon-arrow-down m_l_left"></span>
+                </a>
+                <ul class="sub">
+                </ul>
+            </li>
+        </ul>
+        <a id="hamburger" class="fl_rt" href="#">
+            <span class="icon-paragraph-left"></span>
+        </a>
+        <div class="clearfix"></div>
+    </header>                            
 
-	<main></main>
-
+    <section>
+    	<main></main>
+    </section>
+        
 	<footer></footer>
 
 	<!-- Additional Controls -->
@@ -40,7 +110,7 @@
        <section class="clearfix"><a href="#" class="collapse"><span class="icon-arrow-up txt_lg txt_ntl_m fl_rt"></span></a></section>
     </div>													
 
-    <div id="menu_lg" class="p_l border_box">
+    <div id="menu_lg" class="p_l border_box hidden">
     	
         <section>
         

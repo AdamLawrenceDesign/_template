@@ -288,30 +288,9 @@ body.bg-img
 	background-attachment:fixed;
 }
 
-header 
-{	
-	position:fixed;
-	top:0;
-	background:$prm_d;
-	text-align:center!important;
-	width:100%;
-	z-index:110;
-	padding:.5em;
-	button 
-	{
-		display:inline-block !important;
-		font-size:.75em;
-		width:auto;
-		margin-top:-.25em;
-	}
-}
-
 main 
 {
-	background-image: linear-gradient(to right, #ecedf0 0%, #fafafa 8px);
-	min-height:100%;
-	padding:1em 1em 2em 1em;
-	overflow-y:hidden;
+	
 }
 
 aside 
@@ -805,48 +784,22 @@ ul#quickLinks li div[class^="icon-"], ul#quickLinks-temp li div[class^="icon-"]
 */
 /*=======================================*/
 
-@media only screen and (min-width : 20em) 
-{																	/* ===== 20em (320px) Red ====== #testing_phone {display:block}*/
-	header 
-	{
-		font-size:.8em;
-		padding:.75em;
-		#header_logo 
-		{ 
-			height:1.8em
-		};
-	}
-
+@media only screen and (min-width : 20em) {																	/* ===== 20em (320px) Red ====== #testing_phone {display:block}*/
 	#login-container
 	{
 		width:100%;
 	}
 }
 
-@media only screen and (min-width : 48em) 
-{																/* ======= 48em (768px) Green ======= 	#testing_phone {display:none}#testing_tablet {display:block} */
-	header 
-	{ 
-		font-size:1em
-	}
+@media only screen and (min-width : 48em) {																/* ======= 48em (768px) Green ======= 	#testing_phone {display:none}#testing_tablet {display:block} */
 	#login-container
 	{
 		width:20em;
 	}
 }
 
-@media only screen and (min-width : 56.25em) 
-{																/* ====== 56.25em (900px) dark blue ======= #testing_tablet {display:none}#testing_desktop {display:block}*/
-	header a, header img 
-	{
-		font-size:1.2em
-	}
+@media only screen and (min-width : 56.25em) {																/* ====== 56.25em (900px) dark blue ======= #testing_tablet {display:none}#testing_desktop {display:block}*/
 }
 
-@media only screen and (min-width : 68.75em)
-{																/* ======== 68.75em (1100px) light blue ======== #testing_desktop {display:none}#testing_desktop_lg {display:block } */
-	header a, header img 
-	{
-		font-size:1.2em
-	}
+@media only screen and (min-width : 68.75em){																/* ======== 68.75em (1100px) light blue ======== #testing_desktop {display:none}#testing_desktop_lg {display:block } */
 }
